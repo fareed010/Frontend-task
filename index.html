@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Task</title>
+</head>
+
+<body>
+    <nav class="nav-bg">
+        <div class="container">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active"><div id="logo"> <img src="logo.png" id="logo-brand" alt="logo"></div></a>
+                <a href="#news">home</a>
+                <a href="#contact">mindarc<sup>tm</sup></a>
+                <a href="#services">our services</a>
+                <a href="#platform">platform</a>
+                <a href="#blog">blog</a>
+                <a href="#about" class="about">About us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="bd-example">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?cs=srgb&dl=branding-design-pencils-6444.jpg&fm=jpg"
+                        style="width:100%">
+                    <h5 class="text">UI/UX Designer</h5>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?cs=srgb&dl=blur-code-dark-2653362.jpg&fm=jpg"
+                        style="width:100%">
+                    <h5 class="text">Frontent Developer</h5>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?cs=srgb&dl=connection-data-desk-1181675.jpg&fm=jpg"
+                        style="width:100%">
+                    <h5 class="text">Backend Developer</h5>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="d00t" onclick="currentSlide(1)"></span>
+                <span class="d00t" onclick="currentSlide(2)"></span>
+                <span class="d00t" onclick="currentSlide(3)"></span>
+            </div>
+    </header>
+    <section class="cardItems">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="card cardSpace">
+                        <div class="img-cover">
+                            <img src="https://images.pexels.com/photos/34199/pexels-photo.jpg?cs=srgb&dl=creative-designer-editing-34199.jpg&fm=jpg"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Designers</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <div class="btn-cover">
+                                <a href="#" class="btn btn-primary btn-bgCover">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="card cardSpace">
+                        <div class="img-cover">
+                            <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?cs=srgb&dl=code-coding-data-574071.jpg&fm=jpg"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend developers</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="btn-cover">
+                                <a href="#" class="btn btn-primary btn-bgCover">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="card cardSpace">
+                        <div class="img-cover">
+                            <img src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?cs=srgb&dl=adult-coder-coding-1181676.jpg&fm=jpg"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Backend developers</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <div class="btn-cover">
+                                <a href="#" class="btn btn-primary btn-bgCover">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="details">
+        <div class="container">
+            <h1 class="text-center">Why developers should pick us?</h1>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <div class="accordion" role="tablist" aria-multiselectable="false">
+                        <a class="accordion-panel__heading accordion-title-1" href="javascript:;">Accordion Panel
+                            One</a>
+                        <div class="accordion-panel__content panel-1">
+                            <p>Diam adipiscing eu vestibulum condimentum et gravida lacus parturient dignissim proin
+                                habitasse adipiscing torquent netus blandit vestibulum semper porttitor velit habitant
+                                pretium pharetra fusce inceptos quam quam metus.Potenti ligula torquent vestibulum cum
+                                sem blandit a eu et vestibulum aliquet.</p>
+                        </div>
+
+                        <a class="accordion-panel__heading accordion-title-2" href="javascript:;">Accordion Panel
+                            Two</a>
+                        <div class="accordion-panel__content panel-2">
+                            <p>Diam adipiscing eu vestibulum condimentum et gravida lacus parturient dignissim proin
+                                habitasse adipiscing torquent netus blandit vestibulum semper porttitor velit habitant
+                                pretium pharetra fusce inceptos quam quam metus.Potenti ligula torquent vestibulum cum
+                                sem blandit a eu et vestibulum aliquet.</p>
+                        </div>
+
+                        <a class="accordion-panel__heading accordion-title-3" href="javascript:;">Accordion Panel
+                            Three</a>
+                        <div class="accordion-panel__content panel-3">
+                            <p>Lacus parturient dignissim proin habitasse adipiscing torquent netus blandit vestibulum
+                                semper porttitor velit habitant pretium pharetra fusce inceptos quam quam metus. Potenti
+                                ligula torquent vestibulum cum sem blandit a eu et vestibulum aliquet.</p>
+                        </div>
+
+                        <a class="accordion-panel__heading accordion-title-4" href="javascript:;">Accordion Panel
+                            Four</a>
+                        <div class="accordion-panel__content panel-4">
+                            <p>Potenti ligula torquent vestibulum cum sem blandit a eu et vestibulum aliquet. Lacus
+                                parturient dignissim proin habitasse adipiscing torquent netus blandit vestibulum semper
+                                porttitor velit habitant pretium pharetra fusce inceptos quam quam metus. Potenti ligula
+                                torquent vestibulum cum sem blandit a eu et vestibulum aliquet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="programer">
+                        <img src="programming.svg" alt="svg-programmer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
